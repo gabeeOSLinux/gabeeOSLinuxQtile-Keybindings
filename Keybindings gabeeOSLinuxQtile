@@ -1,0 +1,112 @@
+Qtile keybindings
+
+Cambiar el foco entre ventanas (Switch between windows)
+
+mod + flechas de dirección
+
+Super + left              "Mueve el foco a la izquierda"
+
+Super + right            "Mueve el foco a la derecha"
+
+Super + up                "Mueve el foco hacia arriba"
+
+Super + down           "Mueve el foco hacia abajo"
+
+Super + space          "Mueve el foco secuencialmente a otras ventanas"
+
+
+
+Mover las ventanas columnas derecha / izquierda o mover las ventanas arriba / abajo en modo stack
+
+Super + Shift + left    "Mueve la ventana con foco a la izquierda"
+
+Super + Shift + right  "Mueve la ventana con foco a la derecha"
+
+Super + Shift + down "Mueve la ventana con foco abajo"
+
+Super + Shift + up      "Mueve la ventana con foco arriba"
+
+
+Para agrandar una ventana estando en modo columnas, ya sea hacia arriba / abajo o hacia la izquierda / derecha
+
+Super + control + left
+
+Super + control + right
+
+Super + control + down
+
+Super + control + up
+
+Super + n  Resetea el tamaño de todas las ventanas
+
+
+Super + return  Abre terminal 
+
+Alt + q                                Cierra la ventana con el foco
+
+Super + control + r            Recarga la configuración de Qtile (Esto se utiliza para que tome los cambios hechos en su configuración)
+
+Super + control + q            Cierra Qtile
+
+Super + r                             Lanza rofi
+
+Super + t                             Lanza Thunar
+
+Super + f                             Lanza Firefox
+
+Super + g                            Lanza Gedit
+
+Super + c                            Lanza VSCode
+
+alt + tab                             Tabula entre ventanas
+
+Super + s                            Hace una captura de pantalla (Para ello hay que instalar gnome-screenshot o cambiar la entrada del keybings por scrot)
+
+
+Minimizar o Maximizar
+
+
+Super + m                           Minimiza (oculta) / Maximiza (muestra) la ventana con foco
+
+Super + Shift + m               Maximiza la ventana
+
+Super + k                            Hace flotante a la ventana con foco
+ 
+Super + Shift + k                Coloca nuevamente la ventana en la grilla (no flotante)
+
+
+Power menu
+
+Super + control + p            Lanza el menu para logout / reboot y shutdown. Para ello debe de estar instalado Qtile-extras.
+
+
+
+control + 1                          Lanza Firefox en modo ventana flotante
+
+control + 2                          Lanza Gedit en modo ventana flotante
+
+control + 3                          Lanza Thunar en modo ventana flotante
+
+control + 0                          Lanza la terminal en modo ventana flotante
+
+
+Nota: Sólo he configurado tres layout en Qtile, que son los modos en cómo se acomodan las ventanas en el escritorio.
+
+Modo MonadTall (Por defecto)
+
+Modo Columns
+
+Modo Stack
+
+Las ventanas pueden ser colocadas en distintos espacios de trabajo (He configurado sólo 4) mediante la siguiente combinación de teclas:
+
+Super + Shift + número de espacio de trabajo (1, 2, 3 o 4).
+
+También podría configurarse que determinada ventana de aplicación se abra en un espacio de trabajo previamente especificado.
+
+
+
+
+
+
+
